@@ -1,0 +1,33 @@
+{
+  "name": "@csokolove/node-create",
+  "description": "Utility to create a Node.JS project's config files.",
+  "version": "0.1.0",
+  "author": "csokolove",
+  "license": "MIT",
+  "repository": "https://github.com/csokolove/node-create",
+  "bugs": "https://github.com/csokolove/node-create/issues",
+  "keywords": [
+    "nodejs",
+    "config",
+    "init"
+  ],
+
+  "type": "module",
+  "engines": {
+    "node": ">=8.6"
+  },
+  "main": "./bin/node-create.js",
+  "bin": {
+    "node-create": "./bin/node-create.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
